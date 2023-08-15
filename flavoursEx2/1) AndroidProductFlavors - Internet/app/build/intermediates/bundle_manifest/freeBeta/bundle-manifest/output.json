@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0-beta","enabled":true,"outputFile":"app-free-beta.apk","fullName":"freeBeta","baseName":"free-beta","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.journaldev.androidproductflavors.free.beta","split":"","minSdkVersion":"26"}}]

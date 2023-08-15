@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0-debug","enabled":true,"outputFile":"app-paid-debug.apk","fullName":"paidDebug","baseName":"paid-debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.journaldev.androidproductflavors.paid.debug","split":"","minSdkVersion":"26"}}]

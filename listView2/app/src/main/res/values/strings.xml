@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">listView2</string>
+
+    <string-array name="array_technology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Flutter</item>
+        <item>Python</item>
+        <item>C++</item>
+    </string-array>
+
+</resources>

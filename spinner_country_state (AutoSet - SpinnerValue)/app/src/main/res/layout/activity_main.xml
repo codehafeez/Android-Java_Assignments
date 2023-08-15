@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <Spinner
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Country"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:id="@+id/Country" />
+
+    <Spinner
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select State"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/State" />
+
+    <Button
+        android:onClick="showInformationFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+    <Button
+        android:onClick="set_default_country_state_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Default - Country and State"/>
+
+</LinearLayout>

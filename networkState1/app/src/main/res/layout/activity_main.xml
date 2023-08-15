@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:id="@+id/my_layout">
+
+    <Button
+        android:onClick="toastMsgFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast Msg"/>
+
+    <Button
+        android:onClick="snackBarMsgFunction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SnackBar Msg"/>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:id="@+id/apple"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bananaa"
+            android:id="@+id/bananaa"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Checkbox Value"
+            android:onClick="funCheckValues"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:id="@+id/apple1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bananaa"
+            android:id="@+id/bananaa1"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Radio Button Value"
+        android:onClick="readRadioButtonFunction"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/mySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with the Switch" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:onClick="showAlertDialogFunction"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Process Dialog"
+        android:onClick="showProcessDialogFunction"/>
+
+</LinearLayout>

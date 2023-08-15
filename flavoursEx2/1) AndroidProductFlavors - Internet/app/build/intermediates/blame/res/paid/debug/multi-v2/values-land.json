@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\incremental\\mergePaidDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Abdul Hafeez\\.gradle\\caches\\transforms-2\\files-2.1\\72500435434b575236be6e4c5cbffa89\\design-28.0.0-alpha3\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Abdul Hafeez\\.gradle\\caches\\transforms-2\\files-2.1\\f6678377ce2bc3e48db5cc9225de6678\\appcompat-v7-28.0.0-alpha3\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

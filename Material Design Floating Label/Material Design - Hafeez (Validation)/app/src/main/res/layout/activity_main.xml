@@ -1,0 +1,131 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/firstName_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/firstNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lastName_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/lastNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/emailTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RadioGroup
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:textSize="18dp"
+                android:id="@+id/male"
+                android:text="Male"
+                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5" />
+            <RadioButton
+                android:textSize="18dp"
+                android:id="@+id/female"
+                android:text="Female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="dateOfBirth_function">
+            <EditText
+            android:id="@+id/dateOfBirthTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birht" />
+        </RelativeLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/passwordTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/conformPassword_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/conformPasswordTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Conform Password" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button android:id="@+id/signUpBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+        <ImageView
+            android:background="#333"
+            android:id="@+id/viewImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/uploadImageCamera_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Picker - Camera"
+            android:layout_below="@+id/viewImage"/>
+
+        <Button
+            android:id="@+id/uploadImageGallery_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Picker - Gallery"
+            android:layout_below="@+id/viewImage"/>
+
+        <Button
+            android:id="@+id/uploadImage_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_below="@+id/viewImage"/>
+</LinearLayout>

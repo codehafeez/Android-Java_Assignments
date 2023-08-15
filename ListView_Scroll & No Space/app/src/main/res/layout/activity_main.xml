@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+
+    <ListView
+        android:divider="#f2f2f2"
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:alwaysDrawnWithCache="true"
+        android:horizontalSpacing="3dp"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp">
+    </ListView>
+
+</RelativeLayout>

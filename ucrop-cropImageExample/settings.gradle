@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        // Add by Hafeez
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "cropImage"
+include ':app'

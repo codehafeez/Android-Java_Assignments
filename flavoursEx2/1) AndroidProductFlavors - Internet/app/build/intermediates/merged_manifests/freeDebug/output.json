@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0-debug","enabled":true,"outputFile":"app-free-debug.apk","fullName":"freeDebug","baseName":"free-debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.journaldev.androidproductflavors.free.debug","split":"","minSdkVersion":"26"}}]

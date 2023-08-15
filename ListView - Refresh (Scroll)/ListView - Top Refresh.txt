@@ -1,0 +1,64 @@
+// ======================================================================== xml ========================================================================
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ListView
+            android:background="@color/color_217_217_217"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+// ======================================================================== Java ========================================================================
+
+public class HomeActivity extends Activity {
+
+    private SwipeRefreshLayout swipeRefreshLayout;
+    private ListView listView;
+    private ArrayAdapter<String> adapter;
+    private List<String> movieList;
+    private int currentPage_ListView = 1; // 1 to 10 Records
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+
+        listView = (ListView) findViewById(R.id.listView);
+        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
+        movieList = new ArrayList<>();
+        movieList.add("1");
+        movieList.add(movieList.size()+1+"");
+        movieList.add(movieList.size()+1+"");
+        movieList.add(movieList.size()+1+"");
+        movieList.add(movieList.size()+1+"");
+        movieList.add(movieList.size()+1+"");
+        adapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.list_item, movieList);
+        listView.setAdapter(adapter);
+        // swipeRefreshLayout.setColorSchemeColors(Color.GREEN, Color.GREEN, Color.BLUE, Color.RED, Color.GREEN);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override public void onRefresh() { fetchMovies(); }
+        });
+    }
+
+    private void fetchMovies()
+    {
+        swipeRefreshLayout.setRefreshing(true);
+        movieList.clear();
+        movieList.add("abc");
+        movieList.add(movieList.size()+1+"abc");
+        movieList.add(movieList.size()+1+"abc");
+        movieList.add(movieList.size()+1+"abc");
+        movieList.add(movieList.size()+1+"abc");
+        movieList.add(movieList.size()+1+"abc");
+        adapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.list_item, movieList);
+        listView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+
+        Toast.makeText(getApplicationContext(),"refreshed-abc", Toast.LENGTH_SHORT).show();
+        swipeRefreshLayout.setRefreshing(false);
+    }
+}

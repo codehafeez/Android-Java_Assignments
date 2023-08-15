@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "892936438378",
+    "firebase_url": "https://smatshare-ac092.firebaseio.com",
+    "project_id": "smatshare-ac092",
+    "storage_bucket": "smatshare-ac092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892936438378:android:ebc80fb470ec0ecb",
+        "android_client_info": {
+          "package_name": "firebase.com.smartshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892936438378-hoqhs5q4mcini4nef3dsqclq0jv4fhrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkOeC17hbMp0G-A6IRaCGWQnHxlQ2f3Ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

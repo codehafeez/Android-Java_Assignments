@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Country-State-City</string>
+    <string name="programIP">http://192.168.43.240/CountryStateCity_PHP/</string>
+</resources>

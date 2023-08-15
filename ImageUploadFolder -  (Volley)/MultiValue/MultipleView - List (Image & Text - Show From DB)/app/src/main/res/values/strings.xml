@@ -1,0 +1,10 @@
+<resources>
+<string name="programIP">http://192.168.43.240/</string>
+<string name="app_name">Android RecyclerView</string>
+<string name="action_settings">Settings</string>
+<string name="action_refresh">Settings</string>
+<string name="action_new">Settings</string>
+<string name="logo_desc">App logo</string>
+<string name="person_name">Kate Jennifer</string>
+<string name="person_address">24 Lords Crescent, USA </string>
+</resources>

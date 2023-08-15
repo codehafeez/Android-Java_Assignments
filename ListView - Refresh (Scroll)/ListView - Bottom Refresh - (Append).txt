@@ -1,0 +1,74 @@
+// ======================================================================== xml ========================================================================
+
+        <ListView
+            android:background="@color/color_217_217_217"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+        </ListView>
+
+// ======================================================================== Java ========================================================================
+
+public class MainActivity extends AppCompatActivity {
+
+    private ListView listView;
+    private ArrayAdapter<String> adapter;
+    private List<String> movieList;
+    private int page_working = 11;
+    private int isLoading = 0;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        listView = (ListView) findViewById(R.id.listView);
+        movieList = new ArrayList<>();
+        movieList.add("1");
+        movieList.add("2");
+        movieList.add("3");
+        movieList.add("4");
+        movieList.add("5");
+        movieList.add("6");
+        movieList.add("7");
+        movieList.add("8");
+        movieList.add("9");
+        movieList.add("10");
+        movieList.add("11");
+        adapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.list_item, movieList);
+        listView.setAdapter(adapter);
+
+
+        listView.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override public void onScrollStateChanged(AbsListView absListView, int i) {}
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleFalseItem, int visibleItemCount, int totalItemCount) {
+                if(view.getLastVisiblePosition() == totalItemCount-1 && listView.getCount() >= 10 && isLoading == 0){
+                    top_Function();
+                }
+            }
+        });
+    }
+
+    private void top_Function()
+    {
+        isLoading = 1;
+        ArrayList<String> new_top_list = new ArrayList<>();
+        new_top_list.add(++page_working+" = 1-top-"+1);
+        new_top_list.add(++page_working+" = 2-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 3-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 4-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 5-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 6-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 7-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 8-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 9-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 10-top-"+movieList.size());
+        new_top_list.add(++page_working+" = 11-top-"+movieList.size());
+        movieList.addAll(new_top_list);
+        adapter.notifyDataSetChanged();
+        isLoading = 0;
+        Toast.makeText(getApplicationContext(), "top", Toast.LENGTH_LONG).show();
+    }
+}

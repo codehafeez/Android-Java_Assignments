@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/person_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/person_name"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Abdul Hafeez"
+        android:layout_toRightOf="@+id/person_image"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="18dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/request_button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/person_name"
+        android:layout_alignParentRight="true"
+        android:background="@color/color_primary"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:text="Add Friend" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_material_dark"
+        android:layout_below="@+id/person_image"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

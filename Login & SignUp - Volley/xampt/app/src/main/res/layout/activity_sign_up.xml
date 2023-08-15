@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C6EC1">
+
+    <LinearLayout
+        android:id="@+id/layoutId"
+        android:background="#FF9C6EC1"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/firstNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="First Name"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"/>
+
+        <EditText
+            android:id="@+id/lastNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Last Name"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"/>
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:inputType="textEmailAddress"
+            android:background="#FFEFF1EF"/>
+
+        <RadioGroup
+            android:hint="Date of Birth"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:layout_height="45dp"
+                android:textSize="18dp"
+                android:id="@+id/male"
+                android:text="Male"
+                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_weight=".5" />
+            <RadioButton
+                android:layout_height="45dp"
+                android:textSize="18dp"
+                android:text="Female"
+                android:layout_width="0dp"
+                android:layout_weight=".5" />
+        </RadioGroup>
+
+        <EditText
+            android:editable="false"
+            android:id="@+id/dateOfBirthTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Date of Birth"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"/>
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"/>
+        <EditText
+            android:id="@+id/conformPasswordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Conform Password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"/>
+
+        <Button android:id="@+id/signUpBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</ScrollView>

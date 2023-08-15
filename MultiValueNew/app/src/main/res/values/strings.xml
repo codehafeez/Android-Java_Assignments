@@ -1,0 +1,4 @@
+<resources>
+    <string name="programIP">http://192.168.43.240/</string>
+    <string name="app_name">MultiValueNew</string>
+</resources>

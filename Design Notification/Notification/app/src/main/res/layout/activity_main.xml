@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="65dip"
+                android:layout_height="65dip"
+                android:background="@mipmap/ic_launcher" />
+        </RelativeLayout>
+
+        <TextView
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/relative_layout1"
+            android:background="@drawable/item_count"
+            android:text="21"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="65dip"
+                android:background="#4169E1"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Notification"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+        <TextView
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_count"
+            android:text="427"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

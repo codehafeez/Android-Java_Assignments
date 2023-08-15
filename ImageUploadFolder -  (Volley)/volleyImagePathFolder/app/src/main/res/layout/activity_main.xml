@@ -1,0 +1,27 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:background="#333"
+            android:id="@+id/viewImage"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/uploadImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_below="@+id/viewImage"/>
+
+</RelativeLayout>
+</ScrollView>

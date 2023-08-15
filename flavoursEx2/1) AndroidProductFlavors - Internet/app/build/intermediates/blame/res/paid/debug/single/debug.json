@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\res\\merged\\paid\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\src\\paid\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    }
+]

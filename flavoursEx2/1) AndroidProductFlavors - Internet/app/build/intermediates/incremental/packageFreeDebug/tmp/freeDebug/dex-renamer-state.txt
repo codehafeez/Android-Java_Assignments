@@ -1,0 +1,7 @@
+#Tue Nov 08 23:30:13 PKT 2022
+base.1=C\:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\dex\\freeDebug\\mergeProjectDexFreeDebug\\out\\classes.dex
+path.1=classes.dex
+base.0=C\:\\Users\\Abdul Hafeez\\StudioProjects\\AndroidProductFlavors\\app\\build\\intermediates\\dex\\freeDebug\\mergeExtDexFreeDebug\\out\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

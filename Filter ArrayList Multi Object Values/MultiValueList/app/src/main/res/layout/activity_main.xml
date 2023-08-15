@@ -1,0 +1,18 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </SearchView>
+
+    <ListView
+        android:layout_below="@+id/searchView1"
+        android:id="@+id/android_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

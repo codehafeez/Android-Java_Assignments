@@ -1,0 +1,21 @@
+<resources>
+
+        <string name="app_name">Spinner Enable Another Spinner</string>
+
+        <string name="select_country">Select a country and see the country code in another spinner</string>
+        <string-array name="first_spinner">
+            <item>Afghanistan</item>
+            <item>Albania</item>
+            <item>Algeria</item>
+            <item>American Samoa</item>
+            <item>Andorra</item>
+        </string-array>
+        <string-array name="second_spinner">
+            <item>AF</item>
+            <item>AX</item>
+            <item>AL</item>
+            <item>Dz</item>
+            <item>AS</item>
+        </string-array>
+
+</resources>

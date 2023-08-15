@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/icon1"
+        android:title="Icon1"
+        android:icon="@drawable/icon1"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/icon2"
+        android:title="Icon2"
+        android:icon="@drawable/icon2"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/icon3"
+        android:title="Icon3"
+        android:icon="@drawable/icon3"
+        app:showAsAction="always">
+    </item>
+
+</menu>
+

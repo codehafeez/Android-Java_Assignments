@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C6EC1">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:background="#FF9C6EC1">
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="  Email"
+            android:layout_marginTop="180dp"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"/>
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint=" Password"
+            android:layout_marginTop="250dp"
+            android:paddingLeft="10dp"
+            android:background="#FFEFF1EF"
+            android:inputType="textPassword"/>
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="LOGIN"
+            android:layout_marginTop="320dp"
+            android:textColor="#fff"
+            android:background="#7C529E"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Not registered yet?"
+            android:layout_marginTop="380dp"
+            android:textColor="#ffffff"
+            android:id="@+id/textsignup"
+            android:layout_marginLeft="60dp"/>
+
+        <TextView
+            android:id="@+id/signUpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="SignUp"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000dff"
+            android:layout_toRightOf="@+id/textsignup"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version 1.0"
+            android:layout_marginTop="506dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textSize="11dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

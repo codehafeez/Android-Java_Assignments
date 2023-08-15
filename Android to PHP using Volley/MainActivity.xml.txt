@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <ImageView android:src="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/InputTextUserId"
+        android:hint="User ID"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/InputTextPassword"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColorHint="#999"/>
+
+    <Button
+        android:id="@+id/ButtonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:background="#67A2D6"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
