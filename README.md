@@ -1,4 +1,4 @@
-# Android Java Assignments with Output
+# Android Kotlin Assignments with Output
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.codehafeez.com/)
 
@@ -8,9 +8,9 @@
 
 
 ## My Certificates
-![](https://github.com/codehafeez/Android-Java_Assignments/blob/main/Android-Certificate-Udemy.jpg)
+![](https://github.com/codehafeez/Android-Java_Assignments/blob/main/Android-Certificate-Udemy.png)
 
-![](https://github.com/codehafeez/Android-Java_Assignments/blob/main/Android-Google-Partnet-Certificaiton.jpg)
+![](https://github.com/codehafeez/Android-Java_Assignments/blob/main/Android-Google-Partnet-Certificaiton.png)
 
 ![](https://github.com/codehafeez/Android-Java_Assignments/blob/main/Appreciation-Certificate.png)
 
